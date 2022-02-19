@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:e2e": "cucumber-js --require cucumber.conf.js --require tests/acceptance/stepDefinitions/**/*.js --format @cucumber/pretty-formatter"
+    "test:e2e": "cucumber-js --require cucumber.conf.js --require tests/acceptance/stepsDefinations/*.js --format @cucumber/pretty-formatter tests/acceptance/features/*.feature"
   },
   "keywords": [],
   "author": "",
